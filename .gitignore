@@ -1,0 +1,20 @@
+# Secrets — repo is public
+.env
+config/friends.yaml
+
+# Runtime data (recorded GSI logs, history, tailscale state)
+data/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+
+# Editors / OS
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
